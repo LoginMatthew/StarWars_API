@@ -1,0 +1,43 @@
+.fixed-bottom
+{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}
+body
+{
+    background-color: rgb(223, 223, 223);
+}
+
+tr th
+{
+    text-align: center;
+}
+
+tr td
+{
+    text-align:center;
+    vertical-align: middle;
+}
+
+tr:hover td 
+{
+    background-color: transparent;
+}
+
+tbody tr:hover
+{
+    background: rgb(163, 163, 163);
+}
+
+.card:hover
+{
+    background-color: rgb(221, 221, 221);
+    box-shadow: 10px 10px 15px rgb(61, 61, 61);
+}
+
+.card
+{
+    box-shadow: 5px 5px 10px rgb(167, 167, 167);
+}

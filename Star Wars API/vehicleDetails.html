@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Star Wars - Vehicle Details</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"  crossorigin="anonymous">
+        <link rel="stylesheet" href="mainstyle.css">
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="Main.html">Main</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="people.html?p=1">People</a>
+                        <a class="nav-link" href="planets.html?p=1">Planets</a>
+                        <a class="nav-link" href="vehicles.html?p=1">Vehicles</a>
+                        <a class="nav-link" href="about.html">About</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container" style="padding-bottom: 4rem;">
+            <div class="col">
+        
+                <div class="row">
+                    <h1 id="name"></h1>
+                    <hr>
+                    <h4>Model</h4>
+                    <p id="model"></p>                                      
+                    <h4>Vehicle class</h4>
+                    <p id="vehicle_class"></p>
+                    <h4>Max atmosphering speed</h4>
+                    <p id="max_atmosphering_speed"></p>
+                    <h4>Cost in credits</h4>
+                    <p id="cost_in_credits"></p>
+                    <h4>Crew</h4>
+                    <p id="crew"></p>
+                    <h4>Pilots</h4>
+                    <div class="row my-2" id="CardMainBody"></div>
+                    <h4>Length</h4>
+                    <p id="length"></p>
+                    <h4># Appeared in films</h4>
+                    <ul id="films"></ul>
+                    <a id="backButton"></a>
+                
+                </div>
+                <div class="row fixed-bottom">
+                    <footer class="bg-dark text-white text-center py-2">
+                        <h4>&copy; LoginMatthew-sama 2024</h4>
+                    </footer>
+                </div>  
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="common.js"></script>
+        <script src="vehicleDetails.js"></script>
+    </body>
+</html>
